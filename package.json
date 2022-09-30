@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "clear": "node clear.js",
+    "check": "node clear.js && node index.js"
   },
   "author": "Fernando Grassi Chaves",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "dotenv": "^16.0.2",
+    "dotenv": "^16.0.3",
     "dotenv-safe": "^8.2.0",
     "massive": "^6.10.2",
     "pg-monitor": "^1.4.1"
